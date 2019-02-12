@@ -1,0 +1,22 @@
+#####################
+##### NIVEAU 5 ######
+#####################
+
+Dans ce niveau, nous allons voir comment executer un programme.
+Un programme peut prendre de nombreuses formes dans linux, 
+mais il est en général sous la forme d'un fichier executable. 
+C'est un fichier comme ceux que nous avons vu avant, mais qui contient 
+des instructions à éxecuter par l'ordinateur.
+
+Nous allons executer un "script bash". C'est à dire que les instructions
+seront écrites en langage "bash". C'est le langage que vous êtes en train 
+d'apprendre, qui sert à entrer des commandes dans le terminal linux.
+
+Le script que nous souhaiton executer est enregistré dans le fichier 'script.sh'
+
+Pour lancer un script, il suffit d'appeler son nom, précédé de "./".
+
+Ici, il faudra entrer dans le terminal "./script.sh"
+
+Vous pouvez afficher le contenu du script également, pour essayer 
+de voir si le mot de passe est contenu dedans, et comment il fonctionne.

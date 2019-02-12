@@ -1,0 +1,10 @@
+#####################
+##### NIVEAU 6 ######
+#####################
+
+Commande utile dans ce niveau:
+
+"rm <fichier>": Supprime un fichier du disque. 
+
+Exemple (ne pas le faire): "rm /tmp/test/1/fichier_a_supprimer"
+

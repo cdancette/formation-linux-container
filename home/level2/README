@@ -1,0 +1,11 @@
+#####################
+##### NIVEAU 2 ######
+#####################
+
+Bravo, vous avez compris comment utiliser `ls` ! 
+
+Maintenant, nous allons étudier la commande `cat`. Cette commande permet d'afficher le contenu d'un fichier dans le terminal.
+
+Le mot de passe du niveau suivant est enregistré dans un fichier, situé dans le dossier courant. Affichez la liste des fichiers, puis affichez le contenu du fichier avec `cat`.
+
+Pour les prochains niveaux, les indices ne vous seront plus donnés directement à la connexion. Pensez à utiliser `ls` et `cat` pour fouiller dans votre dossier !

@@ -1,0 +1,6 @@
+Bienvenue ! Vous êtes bien connectés au challenge linux. Le but est d'utiliser les commandes linux, pour trouver les mots de passe, et franchir les niveaux.
+
+Pensez à noter tous les mots de passe des différents niveaux sur votre ordinateur personnel, ils seront plus qu'utiles si vous perds ta connexion ssh pendant la séance !
+N'hésitez pas à demander de l'aide à l'encadrant si vous êtes bloqués.
+
+Pour vous connecter au niveau suivant, entrez la commande "su level1", puis le mot de passe vous sera demandé, entrez "password123" (le mot de passe ne s'affichera pas lorsque vous tapez).

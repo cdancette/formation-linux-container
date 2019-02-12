@@ -1,0 +1,11 @@
+#####################
+##### NIVEAU 3 ######
+#####################
+
+Bravo ! Vous avez trouvé les instructions pour ce niveau.
+Pour accéder au prochain niveau, nous allons apprendre comment nous
+déplacer dans les dossiers. On utilise pour cela la 
+commande`cd` (qui veut dire "Change Directory" == changer 
+de dossier).
+
+la commande est `cd [nom_du_dossier]`. Essayez avec le dossier `mon_dossier`, puis inspectez son contenu.

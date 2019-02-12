@@ -1,0 +1,5 @@
+Le mot de passe est dans un des dossier.
+
+- Astuce 1: "ls" peut être utilisé pour afficher le contenu d'un autre dossier. Faites ls <chemin_du_dossier>
+- Astuce 2: utilisez le wildcard * pour afficher le contenu de plusieurs dossiers
+

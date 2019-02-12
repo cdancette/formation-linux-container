@@ -1,0 +1,7 @@
+#####################
+##### NIVEAU 1 ######
+#####################
+
+Pour ce premier niveau, il faudra utiliser la commande `ls`, qui permet d'afficher la liste des fichier présents dans le dossier courant.
+Le mot de passe pour le niveau suivant est le nom d'un des fichiers présent dans le dossier.
+Pour vous connecter au niveau suivant, entrez la commande "su level1", puis le mot de passe vous sera demandé.
