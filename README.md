@@ -5,15 +5,19 @@ This project provides a docker image which can be used for the practical linux s
 This project is based on [ViaRezo](https://viarezo.fr) internal teaching tool. 
 
 La liste des niveaux est disponible ici: [niveaux.md](niveaux.md).
-## Build
 
+## Pull
+
+`docker pull cdancette/formation-linux`
+
+## Build
 ```
 docker build -t formation-linux .
 ```
 
-Then run the container with:
+## Run
 ```
-docker run -d -h 'formation-linux' -p 23:23 -p 2222:22 formation-linux /usr/local/start.sh
+docker run -d -h 'formation-linux' -p 23:23 -p 2222:22 formation-linux
 ```
 
 If port 23 is already in use, change the binding (for example 2323:23 instead of 23)
