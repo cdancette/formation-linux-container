@@ -1,0 +1,23 @@
+#####################
+##### NIVEAU 7 ######
+#####################
+
+Pour ce niveau, nous allons apprendre la commande `grep`.
+
+Elle permet de chercher dans une chaine de caractères 
+dans un fichier
+
+Ainsi, la commande "grep mot_de_passe fichier.txt" va afficher toutes les
+lignes de "fichier.txt" contenant le texte "mot_de_passe".
+
+Indices:
+
+* Essayez d'afficher le fichier jules-vernes.txt avec `cat`. Le fichier est trop gros, vous ne pourrez pas le parcourir à la main.
+
+* Essayez la commande "head <fichier.txt>". Elle permet d'afficher le début d'un fichier.
+
+* Utilisez la commande grep pour résoudre le niveau.
+
+* Bonus: Une autre commande que vous pouvez utiliser ici est la commande "less". Elle permet de naviger dans le fichier, avec les flèches du clavier. Essayez la avant de passer au niveau suivant.
+Utilisation: less <fichier>.
+

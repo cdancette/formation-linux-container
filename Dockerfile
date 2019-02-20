@@ -64,6 +64,9 @@ RUN apt-get install locales-all
 RUN apt-get install -y xinetd telnetd
 COPY /etc/inetd.conf /etc/inetd.conf
 
+RUN apt-get install -y less locales
+COPY /etc/locale /etc/default/locale
+
 EXPOSE 22
 
 COPY /scripts/levels /usr/local/levels

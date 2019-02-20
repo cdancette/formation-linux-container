@@ -24,8 +24,9 @@ echo "level4:jesuisunmotdepassetresfort" | chpasswd
 echo "level5:you_found_me" | chpasswd
 echo "level6:encodage789" | chpasswd
 echo "level7:Einst3in" | chpasswd
+echo "level8:20000LieuesSLM" | chpasswd
 
-echo "tests:vghjhy7^&uhgtr%6789okiUYTr456y" | chpasswd
+#echo "tests:vghjhy7^&uhgtr%6789okiUYTr456y" | chpasswd
 
 ################################
 ### Niveaux spécifiques #######

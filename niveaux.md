@@ -151,6 +151,32 @@ Exemple (ne pas le faire): "rm /tmp/test/1/fichier_a_supprimer"
 
 ---
 
+# Niveau 7
+
+* head, grep
+
+Ce fichier contient la totalité du livre "20000 lieues sous les mer". Le mot de passe est caché dans une ligne (contenant "password").
+Il faut afficher le début du fichier pour obtenir un indice.
+
+Solution: 
+```
+$ head jules-vernes.txt
+Jules Verne
+VINGT MILLE LIEUES
+SOUS LES MERS
+(1871)
+
+Indice: Le mot de passe se situe à la ligne comprenant le mot "password".
+
+Table des matières
+
+PREMIÈRE PARTIE	4
+
+$ grep password jules-verne.txt          
+Indice: Le mot de passe se situe à la ligne comprenant le mot "password".
+The password is : 20000LieuesSLM
+```
+
 # Futurs niveaux ?
 
 # Niveau mv
