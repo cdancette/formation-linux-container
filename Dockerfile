@@ -75,10 +75,12 @@ COPY /scripts/levels /usr/local/levels
 COPY /etc/passwd /root/passwd
 #COPY /etc/shadow /root/shadow
 COPY /etc/group /root/group
+
 RUN /usr/local/levels/init.sh
 
 # bashrc skeletton
-COPY /etc/bashrc /etc/skel/.bashrc
+#COPY /etc/bashrc /etc/skel/.bashrc
+COPY /etc/bash.bashrc /etc/bash.bashrc
 
 COPY /home /var/home
 
