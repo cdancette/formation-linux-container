@@ -60,5 +60,16 @@ fi
 ###############################################################
 ###############################################################
 
+alias ls="ls --color=always"
+alias grep="grep --color=auto"
+TERM=xterm-color
+PASSWORD_LEVEL10="Turing4000"
+
+#PS1='\e[0;31m\u\e[33;1m@\e[1;37m\h: \e[31m\W\e[0m\$ '
+
 cd ~
 clear
+
+if [ -f .bash_custom ]; then
+   source .bash_custom
+fi

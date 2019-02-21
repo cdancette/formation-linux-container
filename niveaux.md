@@ -184,16 +184,17 @@ Le fichier est caché, il commence par un "."
 Il faut faire `ls -a` pour afficher la liste de tous les fichiers (y compris les fichiers cachés).
 
 # Niveau 9
- 
-Commande mv
+ * mv
 
-# Futurs niveaux ?
-
-## Niveau mv
 Apprendre `mv`
 
-a la connexion, crée un fichier temporaire. Le but est de le supprimer. Le fichier temporaire est stocké dans une variable d'environnement, basé sur le timestamp ?
+a la connexion, crée un fichier temporaire. Le but est de le supprimer. Le fichier temporaire est stocké dans une variable d'environnement, 
 
+Il faut lancer le programe `./prog.py` pour avoir les instructions, puis déplacer les fichiers demandés, puis relancer ./prog.py.
+
+
+# Futurs niveaux ?
+d
 
 ## Niveau variables d'environnement
 Variables d'environnement
@@ -228,7 +229,6 @@ Pour trouver un fichier avec un nom particulier / des caractéristiques précise
 
 Créer un fichier temporaire appartenant a l'user qui n'est pas lisible (non autorisé). 
 Il faut le chmod pour le rendre lisible et obtenir le mot de passe.
-
 
 ## Niveau: écrire un programme (genre python / javascript)
 
