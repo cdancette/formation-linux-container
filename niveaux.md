@@ -177,6 +177,12 @@ Indice: Le mot de passe se situe à la ligne comprenant le mot "password".
 The password is : 20000LieuesSLM
 ```
 
+# Niveau 8: Fichier caché
+
+Le fichier est caché, il commence par un "."
+
+Il faut faire `ls -a` pour afficher la liste de tous les fichiers (y compris les fichiers cachés).
+
 # Futurs niveaux ?
 
 # Niveau mv
@@ -217,6 +223,9 @@ Expliquer que c'est une requête HTTP.
 
 ## Niveau créer serveur http ? 
 http-server, peut-etre trop compliqué
+
+## Niveau : find
+Pour trouver un fichier avec un nom particulier / des caractéristiques précises.
 
 
 # Commandes à apprendre:
