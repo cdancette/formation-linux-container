@@ -29,7 +29,6 @@ echo "level9:Hidd3nFi1e" |chpasswd
 echo "level10:3nvir0nment" | chpasswd
 echo "level11:Turing4000" | chpasswd
 
-#echo "tests:vghjhy7^&uhgtr%6789okiUYTr456y" | chpasswd
 
 ################################
 ### Niveaux spécifiques #######
