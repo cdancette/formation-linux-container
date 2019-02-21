@@ -1,1 +1,16 @@
-Pas d'autre niveau pour le moment
+#####################
+##### NIVEAU 8 ######
+#####################
+
+Le mot de passe est dans un fichier caché (commençant par un .).
+
+Incide: "ls" permet d'afficher les fichiers cachés.
+Faire "man ls" pour afficher l'aide de la commande.
+
+* Note: "man <commande>" affiche l'aide d'une commande linux.
+
+* Note: 
+	- "." représente le dossier courant
+	- ".." représente le parent du dossier courant
+
+	Ainsi, "cd .." permet de revenir au dossier parent.

@@ -183,19 +183,16 @@ Le fichier est caché, il commence par un "."
 
 Il faut faire `ls -a` pour afficher la liste de tous les fichiers (y compris les fichiers cachés).
 
+# Niveau 9
+ 
+Commande mv
+
 # Futurs niveaux ?
 
-# Niveau mv
+## Niveau mv
 Apprendre `mv`
 
 a la connexion, crée un fichier temporaire. Le but est de le supprimer. Le fichier temporaire est stocké dans une variable d'environnement, basé sur le timestamp ?
-
-
-## Niveau grep
-- grep
-
-Un très long ficher, avec au milieu : "mot_de_passe: bidule234".
-= > Utiliser grep pour trouver la ligne
 
 
 ## Niveau variables d'environnement
@@ -206,11 +203,11 @@ Un programme python donne le mot de passe, mais pour ça il faut d'abord set une
 USER=root ./script.py
 ```
 
-
 ## Niveau édition de fichier
 apprendre `nano`
 A la connexion, un fichier temporaire est créé. Il faut modifier le contenu pour changer quelque caractères.
 
+## Niveau pipe
 
 ## Mot de passe: PID
 Trouver le PID d'un process, et l'utiliser comme mot de passe.
@@ -226,6 +223,18 @@ http-server, peut-etre trop compliqué
 
 ## Niveau : find
 Pour trouver un fichier avec un nom particulier / des caractéristiques précises.
+
+## Niveau : chmod
+
+Créer un fichier temporaire appartenant a l'user qui n'est pas lisible (non autorisé). 
+Il faut le chmod pour le rendre lisible et obtenir le mot de passe.
+
+
+## Niveau: écrire un programme (genre python / javascript)
+
+=> Ecrire un petit programme qui donne le 100ieme terme de fibonacci
+
+## Niveau 18 de root-me
 
 
 # Commandes à apprendre:

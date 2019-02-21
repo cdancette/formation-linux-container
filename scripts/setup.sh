@@ -25,6 +25,7 @@ echo "level5:you_found_me" | chpasswd
 echo "level6:encodage789" | chpasswd
 echo "level7:Einst3in" | chpasswd
 echo "level8:20000LieuesSLM" | chpasswd
+echo "level9:Hidd3nFi1e" |chpasswd
 
 #echo "tests:vghjhy7^&uhgtr%6789okiUYTr456y" | chpasswd
 

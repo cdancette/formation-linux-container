@@ -1,0 +1,8 @@
+Dans ce fichier, il faudra utiliser la commande "mv" qui permet de déplacer (ou renommer) un ficher.
+
+Utilisation : mv <source> <destination>
+
+Par exemple
+	* Renommer:"mv mon_fichier.txt lettre.txt"
+	* Déplacer: "mv fichier1 dossier/" : Place "fichier1" dans le dossier.
+	* Déplacer et renommer: "mv fichier1 dossier/fichier2"

@@ -67,6 +67,9 @@ COPY /etc/inetd.conf /etc/inetd.conf
 RUN apt-get install -y less locales
 COPY /etc/locale /etc/default/locale
 
+# Level 9
+RUN apt-get install -y python3
+
 EXPOSE 22
 
 COPY /scripts/levels /usr/local/levels
