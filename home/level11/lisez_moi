@@ -1,0 +1,6 @@
+Dans ce niveau, il faut modifier un fichier texte.
+
+Il faudra utiliser `nano` qui est un éditeur de texte dans le terminal.
+
+Lancez ./prog.py, et modifiez le fichie indiqué. 
+

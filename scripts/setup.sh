@@ -28,6 +28,7 @@ echo "level8:20000LieuesSLM" | chpasswd
 echo "level9:Hidd3nFi1e" |chpasswd
 echo "level10:3nvir0nment" | chpasswd
 echo "level11:Turing4000" | chpasswd
+echo "level12:N4no3stVra1mentPr4tique" | chpasswd
 
 
 ################################

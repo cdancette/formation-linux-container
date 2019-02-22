@@ -196,10 +196,14 @@ Il faut lancer le programe `./prog.py` pour avoir les instructions, puis déplac
 
 Il y a un fichier caché, qui contient des infos pour trouver la bonne ligne dans le CSV. Le CSV explique que le mot de passe est stocké dans une variable d'environnement, et explique comment l'afficher.
 
-Solutio:
+Solution:
 ```
 $ echo $LEVEL10_PASSWORD
 ```
+
+# Niveau 11
+
+Ecriture dans un fichier avec `nano`
 
 # Futurs niveaux ?
 
