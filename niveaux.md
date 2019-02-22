@@ -192,9 +192,17 @@ a la connexion, crée un fichier temporaire. Le but est de le supprimer. Le fich
 
 Il faut lancer le programe `./prog.py` pour avoir les instructions, puis déplacer les fichiers demandés, puis relancer ./prog.py.
 
+# Niveau 10
+
+Il y a un fichier caché, qui contient des infos pour trouver la bonne ligne dans le CSV. Le CSV explique que le mot de passe est stocké dans une variable d'environnement, et explique comment l'afficher.
+
+Solutio:
+```
+$ echo $LEVEL10_PASSWORD
+```
 
 # Futurs niveaux ?
-d
+
 
 ## Niveau variables d'environnement
 Variables d'environnement
