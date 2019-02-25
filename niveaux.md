@@ -1,4 +1,6 @@
-# Niveau: Introduction (intro:formation)
+# Liste des niveaux
+
+## Niveau: Introduction (intro:formation)
 
 Affichage:
 ```
@@ -8,7 +10,7 @@ Pensez à noter tous les mots de passe des différents niveaux sur votre ordinat
 
 Pour vous connecter au niveau suivant, entrez la commande "su level1", puis le mot de passe vous sera demandé, entrez "password123" (le mot de passe ne s'affichera pas lorsque vous tapez).
 ```
-# Niveau 1
+## Niveau 1
 - ls
 
 Afichage:
@@ -20,14 +22,14 @@ Le mot de passe pour le niveau suivant est le nom du fichier présent dans le do
 Pour vous connecter au niveau suivant, entrez la commande "su level1", puis le mot de passe vous sera demandé.
 ```
 
-## Réponse
+### Réponse
 
 ```
 $ ls 
 cheval456
 ```
 
-# Niveau 2
+## Niveau 2
 - cat, ls
 
 Affichage:
@@ -41,7 +43,7 @@ Le mot de passe du niveau suivant est enregistré dans un fichier, situé dans l
 Pour les prochains niveaux, les indices ne vous seront plus donnés directement à la connexion. Pensez à utiliser `ls` et `cat` pour fouiller dans votre dossier !
 ```
 
-## Réponse
+### Réponse
 
 ```
 $ ls 
@@ -52,14 +54,14 @@ vlc123
 
 ```
 
-# Niveau 3
+## Niveau 3
 - cd, cat, ls
 
 Pas d'affichage
 
 le mot de passe est dans un dossier => faire cd, puis ls, puis cat
 
-## Réponse
+### Réponse
 
 ```
 $ ls
@@ -84,7 +86,7 @@ $ su level3
 
 ```
 
-# Niveau 4
+## Niveau 4
 
 Beaucoup de dossiers. Il faut trouver quel dossier contient le mot de passe
 
@@ -107,7 +109,7 @@ $ cat dossier33/mot_de_passe
 le mot de passe
 ```
 
-# Niveau 5
+## Niveau 5
 * Lancer un script
 Affichage:
 ```
@@ -131,10 +133,10 @@ Vous pouvez afficher le contenu du script également, pour essayer
 de voir si le mot de passe est contenu dedans, et comment il fonctionne.
 ```
 
-## Solution
+### Solution
 Il faudra juste faire `./mot_de_passe.sh`, qui va donner le mot de passe (encoder le mot de passe en base64 pour ne pas l'écrire dans le script).
 
-# Niveau 6
+## Niveau 6
 
 * rm
 
@@ -151,7 +153,7 @@ Exemple (ne pas le faire): "rm /tmp/test/1/fichier_a_supprimer"
 
 ---
 
-# Niveau 7
+## Niveau 7
 
 * head, grep
 
@@ -177,13 +179,13 @@ Indice: Le mot de passe se situe à la ligne comprenant le mot "password".
 The password is : 20000LieuesSLM
 ```
 
-# Niveau 8: Fichier caché
+## Niveau 8: Fichier caché
 
 Le fichier est caché, il commence par un "."
 
 Il faut faire `ls -a` pour afficher la liste de tous les fichiers (y compris les fichiers cachés).
 
-# Niveau 9
+## Niveau 9
  * mv
 
 Apprendre `mv`
@@ -192,7 +194,7 @@ a la connexion, crée un fichier temporaire. Le but est de le supprimer. Le fich
 
 Il faut lancer le programe `./prog.py` pour avoir les instructions, puis déplacer les fichiers demandés, puis relancer ./prog.py.
 
-# Niveau 10
+## Niveau 10
 
 Il y a un fichier caché, qui contient des infos pour trouver la bonne ligne dans le CSV. Le CSV explique que le mot de passe est stocké dans une variable d'environnement, et explique comment l'afficher.
 
@@ -201,7 +203,7 @@ Solution:
 $ echo $LEVEL10_PASSWORD
 ```
 
-# Niveau 11
+## Niveau 11
 
 Ecriture dans un fichier avec `nano`
 
