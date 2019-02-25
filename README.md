@@ -4,7 +4,7 @@ This project provides a docker image which can be used for the practical linux s
 
 This project is based on [ViaRezo](https://viarezo.fr) internal teaching tool. 
 
-La liste des niveaux est disponible ici: [niveaux.md](niveaux.md).
+The list of levels is here (in french): [niveaux.md](niveaux.md).
 
 ## Pull
 
